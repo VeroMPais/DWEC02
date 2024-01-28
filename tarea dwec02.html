@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Tarea DWEC02</title>
+
+</head>
+
+<body>
+
+<h2>Tarea DWEC02 
+
+</h2>
+
+<script type="text/javascript">
+
+
+
+//Números mayores del 10 tienen que dar un mensaje de error
+
+
+
+//Tabla de multiplicar del 2, 4 y 8
+var numero = window.prompt("Introduce un número entre 1 y 10");
+if  ( numero > 10 ){document.write ( ("No se puede mostrar la tabla para ese número") + "<br>" );}
+else if (numero == 2) {
+       var numero = 2
+
+      for(var i=1; i<=10; i++){
+      document.write(numero +"*"+i+"="+(numero*i)+"<br>");}}
+	  
+	  
+ else if (numero == 4) {
+	  var  numero = 4
+		
+	  for(var i=1; i<=10; i++){
+      document.write(numero+"*"+i+"="+(numero*i)+"<br>");}
+	  }
+	  
+	  else if (numero == 8  )
+	  {
+	  
+	  var numero = 8
+	  
+	  for(var i=1; i<=10; i++){
+      document.write(numero+"*"+i+"="+(numero*i)+"<br>");}
+	  }
+	  
+	  
+//Tabla de sumar del 3, 6 y 9 hasta el 15
+else if ( numero == 3) {
+    var numero = 3 
+	while (numero <= 15){document.write ((numero++)+"<br>");}
+	}
+	else if (numero == 6){
+	
+	var numero = 6 
+	while (numero <= 15){document.write ((numero++)+"<br>");}
+	}
+	else if (numero == 9 ){
+	
+	var numero=9 
+	while (numero <= 15){document.write ((numero++)+"<br>");}
+	}
+	
+//División del numero 80 con bucle do.. while 
+else if (numero == 5 ){
+    var numero = 5
+	do {document.write ((numero + "/" + 5 + "=" + (numero/5))+"<br>");}
+	while ( numero == 0 ); 
+	}
+	
+	  
+
+	  
+
+
+</script>
+
+</body>
+
+</html>
